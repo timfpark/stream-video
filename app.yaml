@@ -1,0 +1,8 @@
+template: internal-service
+values:
+    app: internal-service
+    port: 8080
+    image: tpark.azurecr.io/stream-video:20211025T232141Z
+    cpu: 1.0
+    memory: 512M
+    replicas: 1
